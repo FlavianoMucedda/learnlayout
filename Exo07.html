@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="container">
+    <nav>
+      <ul>
+        <li>Accueil</li>
+        <li>Menu Taco</li>
+        <li>Projet de list</li>
+        <li>Horaires</li>
+        <li>Directions</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <section>
+      La propriété margin-left pour les sections assure qu'il y a de la place pour la nav.
+    </section>
+
+    <section>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit
+    </section>
+
+    <section>
+      Remarquez ce qu'il se passe lorsque vous redimensionnez votre navigateur. Ça marche plutôt bien !
+    </section>
+    <footer>
+      Si vous utilisez un header et un footer positionné en fixed, faites en sorte qu'il y ait de la place pour eux ! J'ajoute un margin-bottom sur le body.
+    </footer>
+  </div>
+
+
+  <style media="screen">
+
+    * { box-sizing: border-box;}
+
+    .container { position: relative;
+                 border:3px Teal solid;
+    }
+
+    nav { position: absolute;
+          left: 0px;
+          width: 200px;
+          border:3px solid LightGreen;
+        }
+
+section { margin-left: 200px;
+          border:3px solid LightBlue;
+        }
+
+footer { position: fixed;
+         bottom: 0;
+         left: 0;
+         height: 70px;
+         background-color: White;
+         border:3px solid YellowGreen;
+         width: 100%;
+
+       }
+
+  body {margin: 0px;
+        margin-top: 120px;
+        padding: 0px;
+    }
+  </style>
+
+</body>
+</html>

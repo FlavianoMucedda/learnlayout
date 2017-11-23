@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+  <div id="main">
+    Attribuer une width à un élément block-level l'empêchera de s'étirer sur toute la largeur de son conteneur. Ensuite vous pouvez mettre la valeur auto aux propriétés margin-right et margin-left pour centrer horizontallement cet élément à l'intérieur de son conteneur. L'élément prendra la largeur que vous avez spécifié et l'espace restant sera séparé équitablement entre les deux marges.
+
+Le seul problème survient lorsque la fenêtre du navigateur est plus petite que la largeur de votre élément. Le navigateur résout cela en créant une barre de défilement (scrollbar) horizontale. Améliorons cette situation...
+</div>
+<style media="screen">
+  div {border: 2px solid Black;}
+  #main { width: 600px;
+          margin: 0 auto;}
+</style>
+
+</body>
+</html>

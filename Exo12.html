@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+    <article class="clearfix">
+      <img src="ilta.png" alt="">
+      <p>Vous pouvez même utiliser min-width et max-width pour limiter la largeur maximale ou minimale de l'image.</p>
+
+    </article>
+    <div class="container">
+      <nav>
+        <ul>
+          <li>Accueil</li>
+          <li>Menu Taco</li>
+          <li>Projet de liste</li>
+          <li>Horaires</li>
+          <li>Directions</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      <section>
+        <p>Quand cette mise en page est trop étroite, la nav est écrasée. Pire, vous ne pouvez pas utiliser min-width sur la nav pour empêcher cela, parce que la colonne de droite ne le respecterait pas.</p>
+      </section>
+      <section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </section>
+
+    </div>
+
+    <style media="screen">
+      *{box-sizing: border-box;}
+      article{border: 2px solid Red;
+              overflow: auto;}
+      article img {float: right;
+                   width: 50%;
+                 }
+      nav {border: 2px solid Blue;
+           float: left;
+           width: 25%;}
+      div {border: 2px solid Green;}
+      section {border: 2px solid Yellow;
+               margin-left: 25%;}
+    </style>
+
+</body>
+</html>
